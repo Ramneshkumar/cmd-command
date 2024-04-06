@@ -1,0 +1,30 @@
+# making of directory structure
+
+ramnesh@ramnesh-VivoBook-ASUSLaptop-X513UA-KM513UA:~$ mkdir hello
+ramnesh@ramnesh-VivoBook-ASUSLaptop-X513UA-KM513UA:~$ cd hello
+ramnesh@ramnesh-VivoBook-ASUSLaptop-X513UA-KM513UA:~/hello$ mkdir five one
+ramnesh@ramnesh-VivoBook-ASUSLaptop-X513UA-KM513UA:~/hello$ mkdir five/six
+ramnesh@ramnesh-VivoBook-ASUSLaptop-X513UA-KM513UA:~/hello$ touch five/six/c.text
+ramnesh@ramnesh-VivoBook-ASUSLaptop-X513UA-KM513UA:~/hello$ mkdir five/six/seven
+ramnesh@ramnesh-VivoBook-ASUSLaptop-X513UA-KM513UA:~/hello$ touch five/six/seven/error.log
+ramnesh@ramnesh-VivoBook-ASUSLaptop-X513UA-KM513UA:~/hello$ touch one/a.txt one/b.txt
+ramnesh@ramnesh-VivoBook-ASUSLaptop-X513UA-KM513UA:~/hello$ mkdir one/two
+ramnesh@ramnesh-VivoBook-ASUSLaptop-X513UA-KM513UA:~/hello$ touch one/two/d.txt
+ramnesh@ramnesh-VivoBook-ASUSLaptop-X513UA-KM513UA:~/hello$ mkdir one/two/three
+ramnesh@ramnesh-VivoBook-ASUSLaptop-X513UA-KM513UA:~/hello$ touch one/two/three/e.txt
+ramnesh@ramnesh-VivoBook-ASUSLaptop-X513UA-KM513UA:~/hello$ mkdir one/two/three/four
+ramnesh@ramnesh-VivoBook-ASUSLaptop-X513UA-KM513UA:~/hello$ touch one/two/three/four/access.log
+
+
+# Delete the directory named five 
+
+ramnesh@ramnesh-VivoBook-ASUSLaptop-X513UA-KM513UA:~/hello$ rm -r five
+
+# Rename the one directory to uno
+
+ramnesh@ramnesh-VivoBook-ASUSLaptop-X513UA-KM513UA:~/hello$ mv one uno
+
+# Move a.txt to the two directory
+
+ramnesh@ramnesh-VivoBook-ASUSLaptop-X513UA-KM513UA:~/hello$ mv uno/a.txt uno/two
+
